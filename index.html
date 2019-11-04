@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Fifa.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/estilos.css" rel="stylesheet">
+    <script type="text/javascript" src="js//jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="css/wow-min.js"></script>
+    <script>new WOW().init()</script>
+    <link rel="stylesheet" href="faker/fakeLoaderr.min.css">
+    <script src="faker/fakeLoader.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body>
+
+<div class="fakeLoader"></div>
+    <header>
+
+
+
+
+
+        <div class="contenedor" id="menu-cabecera">
+            <div id="divfoto">
+                <img src="img/fifa.png" id="foto">
+            </div>
+            <nav>
+                <p>Inicio</p>
+                <p>Nosotros</p>
+                <p>Contactanos</p>
+                <p>Clientes</p>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div id="menulateral">
+            <button id="cerraraside" onclick="cerrar()"><</button>
+            <aside id="cerrartodo">
+                <li>Noticias</li>
+                <li>Esatdisticas</li>
+                <li>Partidos</li>
+            </aside>
+        </div>
+    
+        <div id="menuon">
+            <button onclick="abrirmenulateral()">></button>
+        </div>
+    
+    
+        <button type="submit" id="boton" onclick="cambiar()">
+    Boton de Panico
+        </button>
+    
+    
+        <button type="submit" id="boton" onclick="ver()">
+            Ver Todos los Post
+                </button>
+    
+    
+    
+    
+        <p id="parrafo">Hola</p>
+    
+        <p id="ajax"></p>
+    
+        <div style="border: 1px solid red;" id="post">
+    
+        </div>
+    
+        <section>
+        <div class="container-fluid">
+    
+            <div class="row">
+                <div class="col-md-6" id="fotofifa">
+                 <img src="img/fifa.png"class="mt-5 wow animated bounceInLeft " data-wow-duration="3s">
+                </div>
+    
+                <div class="col-md-6">
+                    <p class="mt-5 wow animated bounceInLeft" data-wow-duration="2s">Somos la federacion internacional de futbol asociado , con mas de 206 paises miembros que son mas miembros afiliados que las Naciones Unidas (ONU) , con el afan de que el futbol sea el deporte que una a las naciones de los conflictos armados y politicos alrededor del globo terraqueo , bienvenidos </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <section>
+
+
+            <div class="row mt-5">
+
+                <div class="col-md-12">
+                    <img src="img/safe_image.gif">
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section>
+
+            <div class="row">
+
+                <div class="exclusivo col-md-12 ">
+                   <p class=" wow animated bounceInLeft"  data-wow-duration="2s">ENTRA GRATIS EL DIA DE HOY A NUESTRO CONTENIDO EXCLUSIVO , APROVECHA</p><br>
+                   <button class="btn btn-primary wow animated bounceInLeft"  data-wow-duration="2s"><a href="https://www.fb.com" id="linkfb">ENTRA AHORA</a></button>
+                </div>
+
+            </div>
+
+
+
+        </section>
+    
+
+    </main>
+
+    
+
+    <footer>
+
+        <section >
+            <div id="links_sociales"class="container-fluid">
+                <div class="mt-3">
+
+
+                        <span id="footer" class="mt-2">Cristian Jativa 2019</span>
+                </div>
+                
+                
+                
+                <div id="redes_sociales" class="row">
+                    <div id="redes_sociales1" class="col-md-12 mb-3">
+                        <a href="https://www.fb.com"><img src="img/fb.svg" width="20px"></a>
+                        <a href="https://www.instagram.com"><img src="img/instagram.svg" width="20px" id="inst"></a>
+                        <a href="https://www.twitter.com"><img src="img/twiitter.svg" width="20px" id="tw"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </footer>
+
+
+    <script>
+
+       
+       $.fakeLoader({
+            timeToHide:500,
+                    bgColor:"#2ecc71",
+                    spinner:"spinner5",
+                    imagePath:"img/paginas-web-creativas-1.jpg"
+                    
+        });
+
+      
+
+
+
+
+
+        
+    </script>
+
+</body>
+
+</html>

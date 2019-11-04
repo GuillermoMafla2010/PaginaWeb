@@ -1,0 +1,377 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu_icono{
+    color:white;
+    cursor: pointer;
+    display: none;
+}
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+#menu-contenedor {
+    display: flex;
+    justify-content: space-between
+}
+
+header {
+    background: url('../img/headerimage.jpg');
+    color: white;
+    height: 100vh;
+    background-size: cover
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between
+}
+
+nav ul li {
+    margin-right:15px;
+    list-style: none;
+    cursor: pointer;
+    color:white;
+
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    
+}
+
+nav ul li a {
+    color:white
+    
+}
+
+
+#Sobre_mi h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#sobre_mi_principal {
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    
+}
+
+#sobre_mi_principal img{
+    width: 378px;
+}
+
+#sobre_mi_principal p {
+    width: 100%;
+}
+
+#sobre_mi_principal .sobre_mi_texto{
+    width:100%;
+   
+}
+
+#sobre_mi_principal .sobre_mi_foto{
+    width:50%;
+   
+}
+
+
+
+
+#sobre_mi_principal a {
+    background: blueviolet;
+    padding:7px;
+    border-radius: 10px;
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    cursor: pointer;
+  
+}
+
+#trabajos h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.trabajos .item {
+    display: inline-block;
+    text-align: center
+    
+    
+}
+
+
+.trabajos .item img {
+    
+    width:350px;
+}
+
+.item img{
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.item p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.item img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.owl-nav button{
+    margin: 0 46px !important;
+    
+}
+
+.popup {
+    background-color:rgba(68, 30, 30, 0.7);
+    
+    position:fixed;
+    top:20%;
+    left:30%;
+    width:500px;
+    height:300px;
+    background: #fff;
+    
+    text-align: center;
+    z-index: 999999;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.popup .Cerrar{
+    position:absolute;
+    top:-1px;
+    right:0px;
+    color:"#fff";
+    background: #5cb8ff;
+    width: 30px;
+    cursor: pointer;
+}
+
+#especialidades h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+
+.class_especialidades .item{
+   
+    background-image:linear-gradient(to top,#5055df,#6d68f3);
+    margin-bottom: 10px;
+    width: 30%;
+    position:relative;
+    padding: 5px 5px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+
+
+.class_especialidades .item h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue
+}
+
+.class_especialidades{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#foto1{
+    width: 20%;
+    height:20%;
+    float:right;
+}
+
+footer{
+    margin-top:90px;
+   
+    background-color:black;
+    
+ 
+   
+   
+    height:15vh;
+  
+
+}
+
+#foto2{
+    width: 20px;
+    height:20px;
+}
+
+.social-media
+{
+    padding:10px 0;
+    text-align: center;
+    
+}
+
+.social-media img{
+    transform: scale(1);
+    margin-right: 20px;
+}
+
+
+.social-media img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Autor p{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    transition: 0.3s;
+    z-index:999999999999;
+}
+
+.sombra{
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width:800px){
+
+    .menu_icono{
+        display: block;
+       float:right;
+       
+        
+    }
+
+    
+
+    header nav{
+        position: absolute;
+        top:50px;
+        left:0;
+        height:100px;
+        background: #5cb8ff;
+        width:100%;
+        display: none;
+       
+        
+    }
+
+    header nav ul{
+        flex-direction:column;
+       
+    }
+   
+
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    
+    nav ul li {
+      
+        list-style: none;
+        cursor: pointer;
+        color:white;
+        margin-bottom: 10px;
+        margin-top: 1px;
+        
+    
+    }
+
+    header{
+        background: url('../img/headerimage.jpg');
+    color: white;
+    height: 50vh;
+    background-size: cover
+    }
+  
+
+    #Sobre_mi img{
+        width: 90%;
+    }
+
+    #Sobre_mi p{
+        width: 100%;
+
+    }
+
+    .sobre_mi_principal{
+        flex-direction: column;
+        }
+
+    .sobre_mi_texto p{
+        
+        justify-content: center;
+        
+        
+    }
+
+    .sobre_mi_texto a{
+        width:100%;
+        justify-content: center;
+        margin-left:100px;
+
+        
+    }
+
+
+    .sobre_mi_texto{
+        width:100%;
+    }
+
+
+    #sobre_mi_principal .sobre_mi_texto{
+        width:100%;
+        
+    }
+    #sobre_mi_principal .sobre_mi_foto{
+        width:100%;
+        
+    }
+
+   #especialiades .class_especialidades{
+       flex-direction: column;
+   }
+
+
+   .class_especialidades .item{
+       width:90%;
+   }
+
+   #trabajos .trabajos{
+       width:100%
+   }
+
+
+}
